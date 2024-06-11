@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FBReader</string>
+    <string name="empty_string"></string>
+    <!--
+    正则替换assets里的语言文件
+    value="(.+)" 替换>$1</string>
+     -->
+  <!--  <string name="library">FBReader 书库</string>
+    <string name="unknownAuthor">佚名</string>
+    <string name="booksWithNoTags">未归类</string>
+    <string name="demo">试读</string>
+    <string name="byAuthor">作者</string>
+    <string name="summary">按作者排序</string>
+
+    <string name="byTitle">按书名</string>
+    <string name="summary">按书名排序</string>
+
+    <string name="bySeries">按系列</string>
+    <string name="summary">按系列排序</string>
+
+    <string name="byTag">标签</string>
+    <string name="summary">按标签排序</string>
+
+    <string name="recent">最近读过</string>
+    <string name="summary">最近读过的书籍</string>
+
+    <string name="favorites">收藏</string>
+    <string name="summary">很喜欢的，特地收藏起来的书籍</string>
+
+    <string name="chooseView">选择视图</string>
+    <string name="wideCardsView">宽卡片</string>
+    <string name="smallCardsView">小卡片</string>
+    <string name="tinyCardsView">微卡片</string>
+    <string name="coversView">封面</string>
+    <string name="oldView">经典</string>
+    <string name="bookshelfView">书架视图</string>
+    <string name="summary">切换到缩略图</string>
+
+    <string name="found">搜索结果</string>
+    <string name="summary">搜索结果: %s</string>
+
+    <string name="sync">同步</string>
+    <string name="summary">不同同步状态的书籍</string>
+    <string name="sync_success">已同步</string>
+    <string name="summary">书籍已成功同步到服务器</string>
+
+    <string name="sync_failure">同步失败</string>
+    <string name="summary">由于错误导致未能上传到服务器的书籍</string>
+
+    <string name="sync_deleted">已从服务器删除</string>
+    <string name="summary">已无法从服务器获取的书籍</string>
+
+    <string name="sync_tosync">尚未同步</string>
+    <string name="summary">尚待上传到服务器的书籍</string>
+
+
+    <string name="fileTree">文件夹</string>
+    <string name="summary">浏览各级文件夹</string>
+
+    <string name="fileTreeRoot">本地设备</string>
+    <string name="summary">设备上的文件夹</string>
+
+    <string name="fileTreeCard">SD存储卡</string>
+    <string name="withIndex">内存卡编号 %s</string>
+    <string name="summary">插入设备的存储卡</string>
+
+    <string name="fileTreeLibrary">FBReader 文件夹</string>
+    <string name="summary">FBReader 存放书刊的文件夹</string>
+
+    <string name="localSearch">本地搜索</string>
+    <string name="rescan">重新扫描</string>
+    <string name="openBook">打开阅读</string>
+    <string name="showBookInfo">书文信息</string>
+    <string name="shareBook">共享书籍</string>
+    <string name="deleteBook">删除本书</string>
+    <string name="addToFavorites">收藏到我的超爱</string>
+    <string name="removeFromFavorites">从收藏列表中移除</string>
+    <string name="removeFromRecents">从最近列表中移除</string>
+    <string name="markAsRead">标记为已读</string>
+    <string name="markAsUnread">标记为未读</string>
+    <string name="deleteAll">全部删除</string>
+    <string name="uploadAgain">重新上传</string>
+    <string name="tryAgain">重新尝试</string>
+
+
+    <string name="networkLibrary">FBReader 网络书库</string>
+    <string name="sync">FBReader® 书籍网络</string>
+    <string name="summary">我的个人类目</string>
+
+    <string name="byAuthor">作者</string>
+    <string name="summary">按作者排序</string>
+
+    <string name="byTitle">按书名</string>
+    <string name="summary">按书名排序</string>
+
+    <string name="byDate">按日期</string>
+    <string name="summary">按购买日期排序</string>
+
+    <string name="bySeries">按系列</string>
+    <string name="summary">按系列排序</string>
+
+    <string name="search">搜索</string>
+    <string name="summary">在 %s 上搜索图书</string>
+    <string name="summaryAllCatalogs">搜索书库</string>
+    <string name="summaryInProgress">搜索中…</string>
+
+    <string name="found">搜索结果</string>
+    <string name="summary">搜索结果: %s</string>
+
+    <string name="recent">最近书库</string>
+    <string name="summary">你最近访问过的书库</string>
+
+    <string name="openCatalog">打开书库</string>
+    <string name="networkSearch">搜索</string>
+    <string name="showResults">显示结果</string>
+    <string name="showBooks">显示书籍</string>
+    <string name="download">下载</string>
+    <string name="read">阅读</string>
+    <string name="delete">删除</string>
+    <string name="readDemo">试读</string>
+    <string name="deleteDemo">删除试读本</string>
+    <string name="downloadDemo">下载试读本</string>
+    <string name="buy">购买(%s)</string>
+    <string name="addToBasket">添加到购物篮</string>
+    <string name="removeFromBasket">从购物篮中删除</string>
+    <string name="openBasket">打开购物篮</string>
+    <string name="clearBasket">清空购物篮</string>
+    <string name="buyAllBooks">购买所有书籍</string>
+    <string name="openInBrowser">在浏览器中打开</string>
+    <string name="stopLoading">停止加载</string>
+    <string name="stopSearching">停止搜索</string>
+    <string name="signIn">登录</string>
+    <string name="signOut">退出 (%s)</string>
+    <string name="signUp">注册</string>
+    <string name="quickBuy">快速购买</string>
+    <string name="topup">重新输入账号(目前: %s)</string>
+    <string name="topupTitle">重新输入账号</string>
+    <string name="topupViaBrowser">在浏览器中打开页面</string>
+    <string name="authorisationMenuTitle">选择操作</string>
+    <string name="topupSummary">当前: %s</string>
+    <string name="basket">购物篮</string>
+    <string name="basketSummaryEmpty">没有书籍</string>
+    <string name="basketSummaryCountOnly">%0 本书</string>
+    <string name="basketSummary">%0 本书 (%1)</string>
+    <string name="alreadyDownloading">正在下载</string>
+    <string name="alreadyDownloadingDemo">正在下载试读本</string>
+    <string name="stoppingCatalogLoading">停止加载</string>
+    <string name="stoppingNetworkSearch">停止搜索</string>
+    <string name="editCustomCatalog">编辑书库目录</string>
+    <string name="removeCustomCatalog">移除书库</string>
+    <string name="addCustomCatalog">增加书库</string>
+    <string name="addCustomCatalogSummary">手工添加自有的OPDS书库</string>
+    <string name="disableCatalog">停用书库</string>
+    <string name="confirmQuestions" />
+    <string name="read">是否本地阅读</string>
+    <string name="download">是否下载本图书?</string>
+    <string name="readDemo">是否试读?</string>
+    <string name="downloadDemo">是否下载试读本?</string>
+    <string name="buy">是否购买本书? (%s)</string>
+    <string name="openInBrowser">是否在浏览器中打开?</string>
+
+    <string name="downloadingCatalogs">书库目录下载</string>
+    <!__ used as notification title __>
+    <string name="searchingNetwork">搜索书库</string>
+    <!__ used as notification title __>
+    <string name="addCatalog" />
+    <string name="title">添加书库</string>
+    <string name="editUrl">手动输入URL</string>
+
+    <string name="manageCatalogs">管理书库</string>
+    <string name="summary">配置你的书库列表</string>
+    <string name="enabled">启用</string>
+    <string name="disabled">停用</string>
+
+    <string name="menu" />
+    <string name="openRoot">根书库</string>
+    <string name="networkSearch">网络搜索</string>
+    <string name="reload">重新加载</string>
+    <string name="signIn">登录</string>
+    <string name="signUp">注册</string>
+    <string name="signOut">退出 (%s)</string>
+    <string name="topup">重新输入账号</string>
+    <string name="addCustomCatalog">添加书库</string>
+    <string name="refreshCatalogsList">刷新书库</string>
+    <string name="manageCatalogs">管理书库</string>
+    <string name="clearBasket">清空购物篮</string>
+    <string name="buyAllBooks">购买所有图书</string>
+
+
+    <string name="buyBook" />
+    <string name="title">购买书籍</string>
+    <string name="titleSeveralBooks">购买书籍</string>
+    <string name="confirm">确认购买%s书籍?</string>
+    <string name="confirmSeveralBooks">确认购买%s书籍?</string>
+    <string name="alreadyBought">该书已经买过</string>
+    <string name="notAuthorised">需要授权</string>
+    <string name="noAccountInformation">无法加载账号状态</string>
+    <string name="unsufficientFunds">你这次买了 %0 ，但是你现在只有 %1</string>
+    <string name="zeroFunds">你这次买了 %0</string>
+
+    <string name="bookInfo" />
+    <string name="bookInfo">书籍信息</string>
+    <string name="fileInfo">书文信息</string>
+    <string name="description">描述</string>
+    <string name="stringscription">没有有效描述.</string>
+    <string name="annotation">简介</string>
+    <string name="title">书名:</string>
+    <string name="authors">作者:</string>
+    <string name="series">丛书系列:</string>
+    <string name="indexInSeries">系列序号:</string>
+    <string name="tags">标签:</string>
+    <string name="language">语言:</string>
+    <string name="name">文件名:</string>
+    <string name="type">类型:</string>
+    <string name="size">大小:</string>
+    <string name="time">最后更改时间:</string>
+    <string name="sizeInBytes">%s 字节</string>
+    <string name="sizeInKiloBytes">%s kB</string>
+    <string name="catalog">书库:</string>
+    <string name="extraLinks">相关链接</string>
+    <string name="menu" />
+    <string name="edit">编辑</string>
+
+
+    <string name="bookDownloader" />
+    <string name="downloadCompleteTicker">下载成功</string>
+    <string name="downloadFailedTicker">下载出错</string>
+    <string name="downloadComplete">下载完成</string>
+    <string name="downloadFailed">下载失败</string>
+    <string name="downloadStarted">开始下载</string>
+    <string name="alreadyDownloading">已在下载</string>
+    <string name="cannotCreateDirectory">无法创建文件夹 %s</string>
+    <string name="cannotCreateFile">无法创建文件 %s</string>
+
+    <string name="tocView" />
+    <string name="expandTree">展开目录</string>
+    <string name="collapseTree">折叠目录</string>
+    <string name="readText">阅读图书内容</string>
+
+    <string name="bookmarksView" />
+    <string name="thisBook">本书</string>
+    <string name="allBooks">所有图书</string>
+    <string name="new">添加书签</string>
+    <string name="openBook">打开书签</string>
+    <string name="editBookmark">编辑书签</string>
+    <string name="deleteBookmark">删除书签</string>
+    <string name="search">搜索</string>
+
+    <string name="editBookmark" />
+    <string name="text">文本</string>
+    <string name="style">样式</string>
+    <string name="delete">删除</string>
+    <string name="deleteBookmark">删除书签</string>
+    <string name="saveText">保存文本</string>
+    <string name="editStyle">编辑样式…</string>
+
+    <string name="toast" />
+    <string name="more">更多</string>
+    <string name="offline">下线</string>
+
+    <string name="cancelMenu" />
+    <string name="library">打开书库</string>
+    <string name="networkLibrary">打开网络书库</string>
+    <string name="previousBook">打开上一本书</string>
+    <string name="returnTo">返回到…</string>
+    <string name="back">后退</string>
+    <string name="forward">前进</string>
+    <string name="close">关闭FBReader</string>
+
+    <string name="style">样式 %s</string>
+    <string name="editStyle">编辑样式</string>
+    <string name="name">样式名称</string>
+    <string name="invisible">不可见</string>
+    <string name="summaryOn">不要高亮书签</string>
+    <string name="summaryOff">高亮书签</string>
+
+    <string name="bgColor">背景颜色</string>
+
+    <string name="selection">选择</string>
+    <string name="quoteFrom">从%s中引用</string>
+    <string name="textInBuffer">复制到剪贴板:&#10;%s</string>
+
+    <string name="sharing" />
+    <string name="sharedFrom">共享自 &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt; </string>
+
+    <string name="menu" />
+    <string name="installPremium">升级到付费版</string>
+    <string name="openPremium">打开FBReader付费版</string>
+    <string name="premium">FBReader付费版对话框</string>
+    <string name="whatsnew">新增内容</string>
+    <string name="openStartScreen">开始屏幕</string>
+    <string name="preferences">阅读相关设置</string>
+    <string name="bookInfo">书籍信息</string>
+    <string name="library">本地书柜</string>
+    <string name="toc">本书目录</string>
+    <string name="day">白底黑字</string>
+    <string name="night">黑底白字</string>
+    <string name="dayNight">白天/夜间</string>
+    <string name="yotaSwitchToBackScreen">切换到下一屏幕</string>
+    <string name="yotaSwitchToFrontScreen">切换到上一屏幕</string>
+    <string name="networkLibrary">在线书库</string>
+    <string name="navigate">快速翻看</string>
+    <string name="toc">内容目录</string>
+    <string name="gotoHome">翻到图书开始</string>
+    <string name="gotoSectionStart">翻到章节开始</string>
+    <string name="gotoSectionEnd">翻到章节结束</string>
+    <string name="nextTOCSection">翻到下一章节 </string>
+    <string name="previousTOCSection">翻到上一章节</string>
+    <string name="undo">还原</string>
+    <string name="redo">重做</string>
+
+    <string name="shareBook">共享书籍</string>
+    <string name="search">内容查找</string>
+    <string name="rotate">翻转屏幕</string>
+    <string name="screenOrientation">屏幕方向</string>
+    <string name="screenOrientationSystem">系统</string>
+    <string name="screenOrientationSensor">感知设备方向</string>
+    <string name="screenOrientationPortrait">竖直</string>
+    <string name="screenOrientationLandscape">水平</string>
+    <string name="screenOrientationReversePortrait">竖直反置</string>
+    <string name="screenOrientationReverseLandscape">水平反置</string>
+    <string name="increaseFont">字体加大</string>
+    <string name="decreaseFont">字体缩小</string>
+    <string name="changeFontSize">缩放</string>
+    <string name="toggleFullscreen">全屏</string>
+    <string name="bookmarks">我的书签</string>
+    <string name="help">帮助</string>
+    <string name="plugins">安装插件</string>
+    <string name="gotoPageNumber">翻到页码</string>
+
+    <string name="BookInfo" />
+    <string name="fileName">文件</string>
+    <string name="title">书名</string>
+    <string name="language">语言</string>
+    <string name="encoding">编码</string>
+    <string name="authors">作者</string>
+    <string name="tags">标签</string>
+    <string name="series">丛书系列</string>
+
+    <string name="Preferences">FBReader设定</string>
+    <string name="sync">同步</string>
+    <string name="summary">书籍网络设定</string>
+    <string name="site">了解更多关于同步内容</string>
+    <string name="url">https://books.fbreader.org/help.html</string>
+
+    <string name="enable">开启同步</string>
+    <string name="summaryOn">将我的书库和 FBReader 书籍网络服务器同步</string>
+    <string name="summaryOnWithAccount">将我的书库同步为 %s</string>
+    <string name="summaryOff">不要将我的书库和 FBReader 书籍网络服务器同步</string>
+
+    <string name="values" />
+    <string name="always">总是</string>
+    <string name="viaWifi">如果设备连接到WiFi</string>
+    <string name="never">永不</string>
+
+    <string name="uploadAllBooks">上传全部书籍到服务器</string>
+    <string name="downloadAllBooks">从服务器下载全部书籍</string>
+    <string name="downloadCurrentBook">从服务器下载当前书籍</string>
+    <string name="positions">同步阅读位置</string>
+    <string name="bookmarks">同步书签</string>
+    <string name="customShelves">同步自定义书架</string>
+    <string name="metainfo">同步Meta信息 (标题、标签、等等)</string>
+    <string name="changeCurrentBook">修改当前书籍</string>
+    <string name="summaryOn">在所有设备上打开相同书籍</string>
+    <string name="summaryOff">同步阅读位置, 但不在所有设备上打开相同书籍</string>
+
+
+    <string name="directories">文件夹设定</string>
+    <string name="summary">相关文件夹位置设定</string>
+    <string name="bookPath">搜索书籍的位置</string>
+    <string name="chooserTitle">书文存放位置</string>
+
+    <string name="downloadDir">存放已下载书籍的位置</string>
+    <string name="chooserTitle">书文存放位置</string>
+
+    <string name="fontPath">搜索字体的位置</string>
+    <string name="chooserTitle">字体存放位置</string>
+
+    <string name="tempDir">存放临时文件的位置</string>
+    <string name="chooserTitle">临时文件文件夹</string>
+
+
+    <string name="appearance">呈现方式</string>
+    <string name="summary">旋转，状态工具条</string>
+    <string name="language">界面语言</string>
+    <string name="screenOrientation">屏幕方向</string>
+    <string name="system">系统</string>
+    <string name="sensor">感知设备方向</string>
+    <string name="portrait">竖直</string>
+    <string name="landscape">水平</string>
+    <string name="reversePortrait">竖直反置</string>
+    <string name="reverseLandscape">水平反置</string>
+
+    <string name="autoOrientation">自动翻转</string>
+    <string name="summaryOn">晃动设备时自动翻转</string>
+    <string name="summaryOff">晃动设备时禁止翻转</string>
+
+    <string name="showStatusBar">显示状态栏</string>
+    <string name="summaryOn">阅读模式下显示状态栏</string>
+    <string name="summaryOff">阅读模式下隐藏状态栏</string>
+
+    <string name="showActionBar">显示动作条</string>
+    <string name="summaryOn">阅读模式下显示动作条</string>
+    <string name="summaryOff">阅读模式下隐藏动作条</string>
+
+    <string name="showStatusBarWhenMenuIsActive">菜单激活时显示状态栏</string>
+    <string name="summaryOn">菜单处于激活状态时显示状态栏</string>
+    <string name="summaryOff">菜单激活时不要显示状态栏</string>
+
+    <string name="fullscreenMode">全屏模式</string>
+    <string name="summaryOn">隐藏导航控制</string>
+    <string name="summaryOff">显示导航控制</string>
+
+    <string name="disableButtonLights">阅读时禁用系统按键发亮</string>
+    <string name="summaryOn">禁用设备系统按键发亮 (对某些设备无效)</string>
+    <string name="summaryOff">不要尝试禁用系统按键发亮</string>
+
+    <string name="twoColumnView">双列试图</string>
+    <string name="summaryOn">水平方向手持设备时使用双列显示文字</string>
+    <string name="summaryOff">始终将文字一列显示</string>
+
+    <string name="allowScreenBrightnessAdjustment">屏幕亮度调整</string>
+    <string name="summaryOn">通过在屏幕左侧上下滑动手指来调整</string>
+    <string name="summaryOff">禁用屏幕亮度调整</string>
+
+    <string name="dontTurnScreenOff">禁止屏幕睡眠</string>
+    <string name="0">总是</string>
+    <string name="25">当电量大于百分之25</string>
+    <string name="50">当电量大于百分之50</string>
+    <string name="100">从不</string>
+
+    <string name="dontTurnScreenOffDuringCharging">在充电时防止屏幕进入睡眠状态</string>
+    <string name="summaryOn">如果设备处于充电模式则禁止屏幕进入睡眠状态</string>
+    <string name="summaryOff">如果设备处于充电模式则关闭屏幕</string>
+
+    <string name="enableBookMenuSwipeGesture">为书籍菜单启用滑动手势</string>
+    <string name="summaryOn">从左边缘滑动开启书籍菜单</string>
+    <string name="summaryOff">使用三线按钮开启书籍菜单</string>
+
+
+    <string name="text">文字</string>
+    <string name="summary">字体, 断字等等。</string>
+    <string name="fontProperties">字体属性</string>
+    <string name="summary">字体平滑选项</string>
+    <string name="antiAlias">抗锯齿</string>
+    <string name="summaryOn">抗锯齿已启用</string>
+    <string name="summaryOff">抗锯齿已禁用</string>
+
+    <string name="deviceKerning">间距微调</string>
+    <string name="summaryOn">间距微调已启用</string>
+    <string name="summaryOff">间距微调已禁用</string>
+
+    <string name="dithering">抖动</string>
+    <string name="summaryOn">色彩抖动已启用</string>
+    <string name="summaryOff">色彩抖动已禁用</string>
+
+    <string name="hinting">微调</string>
+    <string name="summaryOn">字体微调已启用</string>
+    <string name="summaryOff">字体微调已禁用</string>
+
+    <string name="subpixel">次像素平滑</string>
+    <string name="summaryOn">次像素平滑已启用</string>
+    <string name="summaryOff">次像素平滑已禁用</string>
+
+
+    <string name="font">字体</string>
+    <string name="inherit">&lt;不变&gt;</string>
+
+    <string name="fontSize">字体大小</string>
+    <string name="fontStyle">字型</string>
+    <string name="regular">正常</string>
+    <string name="bold">加粗</string>
+    <string name="italic">倾斜</string>
+    <string name="boldItalic">加粗并倾斜</string>
+
+    <string name="bold">加粗</string>
+    <string name="bold">加粗</string>
+    <string name="normal">正常</string>
+    <string name="inherit">&lt;不变&gt;</string>
+
+    <string name="italic">倾斜</string>
+    <string name="italic">倾斜</string>
+    <string name="normal">规则</string>
+    <string name="inherit">&lt;不变&gt;</string>
+
+    <string name="textDecoration">文本装饰</string>
+    <string name="inherit">&lt;不变&gt;</string>
+    <string name="none">无装饰</string>
+    <string name="underline">下划线</string>
+    <string name="line_through">删除线</string>
+
+    <string name="lineSpacing">行间距</string>
+    <string name="inherit">&lt;不变&gt;</string>
+
+    <string name="alignment">对齐</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="center">居中</string>
+    <string name="justify">对齐</string>
+    <string name="inherit">&lt;不变&gt;</string>
+
+    <string name="autoHyphenations">自动断字</string>
+    <string name="summaryOn">自动断字</string>
+    <string name="summaryOff">禁止自动断字</string>
+
+    <string name="allowHyphenations">允许断字</string>
+    <string name="auto">断字</string>
+    <string name="none">禁止断字</string>
+    <string name="inherit">&lt;不变&gt;</string>
+
+    <string name="firstLineIndent">首行缩进</string>
+    <string name="spaceBefore">段前距</string>
+    <string name="spaceAfter">段后距</string>
+    <string name="leftIndent">左缩进</string>
+    <string name="rightIndent">右缩进</string>
+    <string name="verticalAlignment">垂直对齐</string>
+    <string name="more">更多样式</string>
+    <string name="summary">分别设定标题、段落等.</string>
+    <string name="Regular Paragraph">连续段落</string>
+    <string name="summary" value="" />
+
+    <string name="xhtml_tag_p">EPub 段落</string>
+    <string name="summary">&lt;p&gt; XHTML 标签内容</string>
+
+    <string name="Title">书名</string>
+    <string name="summary" value="" />
+
+    <string name="Section Title">章节标题</string>
+    <string name="summary" value="" />
+
+    <string name="Poem Title">诗标题</string>
+    <string name="summary" value="" />
+
+    <string name="Subtitle">副标题</string>
+    <string name="summary" value="" />
+
+    <string name="Annotation">摘要</string>
+    <string name="summary" value="" />
+
+    <string name="Epigraph">题词</string>
+    <string name="summary" value="" />
+
+    <string name="Stanza">节</string>
+    <string name="summary" value="" />
+
+    <string name="Verse">韵文</string>
+    <string name="summary" value="" />
+
+    <string name="Preformatted text">预置格式文本</string>
+    <string name="summary" value="" />
+
+    <string name="Image">图像</string>
+    <string name="summary" value="" />
+
+    <string name="Cite">举例</string>
+    <string name="summary" value="" />
+
+    <string name="Author">作者</string>
+    <string name="summary" value="" />
+
+    <string name="Date">日期</string>
+    <string name="summary" value="" />
+
+    <string name="Internal Hyperlink">内部超链接</string>
+    <string name="summary" value="" />
+
+    <string name="Footnote">脚注</string>
+    <string name="summary" value="" />
+
+    <string name="Emphasis">重点</string>
+    <string name="summary" value="" />
+
+    <string name="Strong">固定</string>
+    <string name="summary" value="" />
+
+    <string name="Subscript">下标</string>
+    <string name="summary" value="" />
+
+    <string name="Superscript">上标</string>
+    <string name="summary" value="" />
+
+    <string name="Code">编码</string>
+    <string name="summary" value="" />
+
+    <string name="StrikeThrough">删除线</string>
+    <string name="summary" value="" />
+
+    <string name="Italic">倾斜</string>
+    <string name="summary" value="" />
+
+    <string name="Bold">加粗</string>
+    <string name="summary" value="" />
+
+    <string name="Definition">定义</string>
+    <string name="summary" value="" />
+
+    <string name="Definition Description">定义描述</string>
+    <string name="summary" value="" />
+
+    <string name="Header 1">标题 1</string>
+    <string name="summary" value="" />
+
+    <string name="Header 2">标题 2</string>
+    <string name="summary" value="" />
+
+    <string name="Header 3">标题 3</string>
+    <string name="summary" value="" />
+
+    <string name="Header 4">标题 4</string>
+    <string name="summary" value="" />
+
+    <string name="Header 5">标题 5</string>
+    <string name="summary" value="" />
+
+    <string name="Header 6">标题 6</string>
+    <string name="summary" value="" />
+
+    <string name="External Hyperlink">外部链接</string>
+    <string name="summary" value="" />
+
+
+    <string name="toast">弹出</string>
+    <string name="summary">脚注窗口等.</string>
+    <string name="showFootnoteToast">弹出中显示链接文本</string>
+    <string name="never">永不</string>
+    <string name="footnotesOnly">仅限脚注</string>
+    <string name="footnotesAndSuperscripts">对脚注和上标链接</string>
+    <string name="allInternalLinks">对所有内部链接</string>
+
+    <string name="footnoteToastDuration">显示弹出链接多久</string>
+    <string name="fontSizePercent">字体大小 (正常字体的百分比)</string>
+
+    <string name="css">CSS</string>
+    <string name="summary">使用/忽略CSS中定义的值</string>
+    <string name="fontFamily">字体</string>
+    <string name="summaryOn">使用CSS中定义的字体</string>
+    <string name="summaryOff">忽略CSS中定义的字体</string>
+
+    <string name="fontSize">字体大小</string>
+    <string name="summaryOn">使用CSS中定义的字体大小</string>
+    <string name="summaryOff">忽略CSS中定义的字体大小</string>
+
+    <string name="textAlignment">文字排列</string>
+    <string name="summaryOn">使用CSS中定义的文字排列</string>
+    <string name="summaryOff">忽略CSS中定义的文字排列</string>
+
+    <string name="margins">边距</string>
+    <string name="summaryOn">应用CSS中定义的边距</string>
+    <string name="summaryOff">忽略CSS中定义的边距</string>
+
+
+    <string name="colors">颜色 &amp; 墙纸</string>
+    <string name="summary">设置颜色</string>
+    <string name="background">背景色</string>
+    <string name="chooser" />
+    <string name="solidColor">纯色…</string>
+    <string name="predefined">预定义纹理…</string>
+    <string name="selectFile">选择文件…</string>
+
+    <string name="solidColor">单色</string>
+    <string name="leather">皮革</string>
+    <string name="sepia">棕褐</string>
+    <string name="wood">木质</string>
+    <string name="sand">沙质</string>
+    <string name="hardpaper">硬纸</string>
+
+    <string name="fillMode">填充模式</string>
+    <string name="tile">平铺</string>
+    <string name="tileMirror">镜像平铺</string>
+    <string name="fullscreen">全屏</string>
+    <string name="stretch">拉伸为全屏</string>
+    <string name="tileVertically">水平拉伸, 垂直平铺</string>
+    <string name="tileHorizontally">垂直拉伸, 水平平铺</string>
+
+    <string name="selectionBackground">选择背景色</string>
+    <string name="selectionForeground">选择的文本</string>
+    <string name="text">普通文字</string>
+    <string name="hyperlink">链接文字</string>
+    <string name="hyperlinkVisited">已访问过的链接文字</string>
+    <string name="highlightingForeground">搜索结果</string>
+    <string name="highlightingBackground">搜索结果背景</string>
+    <string name="footerOldStyle">页脚 (旧样式)</string>
+    <string name="footerBackground">页脚背景</string>
+    <string name="footerForeground">页脚文本</string>
+    <string name="footerForegroundUnread">页脚线</string>
+
+    <string name="margins">边距</string>
+    <string name="summary">文本空白距</string>
+    <string name="left">左边距</string>
+    <string name="right">右边距</string>
+    <string name="top">顶边距</string>
+    <string name="bottom">底边距</string>
+    <string name="spaceBetweenColumns">列间距</string>
+
+    <string name="scrollBar">滚动条</string>
+    <string name="summary">滚动条 &amp; 页脚设定</string>
+    <string name="scrollbarType">滚动条设置</string>
+    <string name="hide">隐藏</string>
+    <string name="show">垂直滚动</string>
+    <string name="showAsProgress">垂直进度方式</string>
+    <string name="showAsFooter">水平页脚方式</string>
+    <string name="showAsFooterOldStyle">水平页脚 (旧样式)</string>
+
+    <string name="footerHeight">页脚高度</string>
+    <string name="footerOldStyleColor">页脚 (旧样式) 颜色</string>
+    <string name="footerBackgroundColor">页脚背景颜色</string>
+    <string name="footerForegroundColor">页脚文本颜色</string>
+    <string name="footerForegroundUnreadColor">页脚线颜色</string>
+    <string name="tocMarks">显示内容目录标志</string>
+    <string name="summaryOn">在页脚栏显示内容目录标志</string>
+    <string name="summaryOff">不在页脚栏显示内容目录标志</string>
+
+    <string name="tocMarksMaxNumber">要显示的TOC标签最大值</string>
+    <string name="showProgress">显示阅读进度</string>
+    <string name="dontDisplay">不显示</string>
+    <string name="asPages">显示为页码</string>
+    <string name="asPercentage">显示为百分比</string>
+    <string name="asPagesAndPercentage">显示为页码和百分比</string>
+
+    <string name="showBattery">显示电量百分比</string>
+    <string name="summaryOn">在页脚显示电量百分比</string>
+    <string name="summaryOff">不在页脚显示电量百分比</string>
+
+    <string name="showClock">显示时间</string>
+    <string name="summaryOn">页脚处显示时间</string>
+    <string name="summaryOff">不在页脚处显示时间</string>
+
+    <string name="font">字体</string>
+
+    <string name="scrolling">翻阅操作</string>
+    <string name="summary">如何翻阅文字内容</string>
+    <string name="fingerScrolling">触滑屏幕翻阅</string>
+    <string name="byTap">手指拍触屏幕翻页</string>
+    <string name="byFlick">手指触滑翻页</string>
+    <string name="byTapAndFlick">触滑或者拍触以翻页</string>
+
+    <string name="enableDoubleTapDetection">连续拍触动作设定</string>
+    <string name="summaryOn">连续拍触屏幕两次显示对话框/菜单</string>
+    <string name="summaryOff">忽略连续拍触动作</string>
+
+    <string name="volumeKeys">音量键滚动</string>
+    <string name="summaryOn">使用音量键翻页</string>
+    <string name="summaryOff">音量键仅用于声音</string>
+
+    <string name="invertVolumeKeys">用音量键来翻动</string>
+    <string name="summaryOn">允许上 (下) 键上(下)翻动页面</string>
+    <string name="summaryOff">禁止上 (下) 键上(下)翻动页面</string>
+
+    <string name="animation">动画效果</string>
+    <string name="none">无动画效果的滚屏</string>
+    <string name="curl">翻卷动画</string>
+    <string name="slide">滑动动画</string>
+    <string name="slideOldStyle">滑动动画 (旧样式)</string>
+    <string name="shift">移动动画</string>
+
+    <string name="animationSpeed">动画速度</string>
+    <string name="fast">快</string>
+    <string name="slow">慢</string>
+
+    <string name="horizontal">横屏翻阅</string>
+    <string name="summaryOn">横屏翻阅</string>
+    <string name="summaryOff">纵屏翻阅</string>
+
+
+    <string name="tapZones">拍触区域</string>
+    <string name="summary">手指拍触动作设定</string>
+    <string name="tapZonesScheme">拍触区域设定</string>
+    <string name="left_to_right">从左向右翻阅</string>
+    <string name="right_to_left">从右向左翻阅</string>
+    <string name="up">从下往上翻阅</string>
+    <string name="down">从上往下翻阅</string>
+    <string name="custom">定制…</string>
+
+
+    <string name="dictionary">词典 &amp; 译者</string>
+    <string name="summary">翻译设定</string>
+    <string name="dictionary">查找单个词汇于</string>
+    <string name="translator">翻译短语通过</string>
+    <string name="translateOffline">Google 翻译: 使用离线翻译 (如果已安装)</string>
+    <string name="always">总是</string>
+    <string name="onError">自动, 如果在线翻译失败</string>
+    <string name="ask">寻问, 如果在线翻译失败</string>
+    <string name="never">永不</string>
+
+    <string name="translationToastDuration">显示翻译弹出时长</string>
+    <string name="errorToastDuration">显示错误消息时长</string>
+    <string name="sourceLanguage">译自语言</string>
+    <string name="detect">自动检测语言</string>
+
+    <string name="targetLanguage">翻译为</string>
+    <string name="any">所有语言</string>
+
+    <string name="longTapAction">长按动作设定</string>
+    <string name="doNothing">长按不做任何事</string>
+    <string name="selectSingleWord">长按选择词语</string>
+    <string name="startSelecting">长按选择内容</string>
+    <string name="openDictionary">长按选择词语，放开后打开字典</string>
+
+    <string name="navigateOverAllWords">导航键访问词句设定</string>
+    <string name="summaryOn">导航键访问所有的词句</string>
+    <string name="summaryOff">导航键仅访问超链接词句</string>
+
+
+    <string name="images">图像设定</string>
+    <string name="summary">图像显示选项</string>
+    <string name="backgroundColor">图像显示时的背景颜色</string>
+    <string name="longTapAction">长按动作设定</string>
+    <string name="doNothing">长按不做任何事</string>
+    <string name="selectImage">长按选择图像</string>
+    <string name="openImageView">长按打开图像</string>
+
+    <string name="fitImagesToScreen">图像适合屏幕</string>
+    <string name="none">无</string>
+    <string name="covers">只有封面</string>
+    <string name="all">所有</string>
+
+    <string name="matchBackground">匹配背景密度</string>
+    <string name="summaryOn">将图像颜色调整为背景</string>
+    <string name="summaryOff">不调整图像颜色</string>
+
+
+    <string name="menu">菜单</string>
+    <string name="summary">配置主屏菜单</string>
+    <string name="backgroundCover">使用书籍封面作背景</string>
+    <string name="summaryOn">书籍菜单中显示封面</string>
+    <string name="summaryOff">保持无背景</string>
+
+    <string name="bookMenuStatusItem">状态项</string>
+    <string name="summaryOn">在书籍菜单中显示状态项</string>
+    <string name="summaryOff">隐藏状态项</string>
+
+    <string name="items">菜单项</string>
+    <string name="summary">更改项的顺序</string>
+    <string name="bookMenuUpperSection">书籍菜单 (升序)</string>
+    <string name="bookMenuLowerSection">书籍菜单 (降序)</string>
+    <string name="toolbarOrMainMenu">工具条或主菜单</string>
+    <string name="mainMenu">主菜单</string>
+    <string name="enabled">已启用</string>
+    <string name="disabled">已禁用</string>
+
+
+    <string name="cancelMenu">取消菜单设定</string>
+    <string name="summary">设定回退按键动作</string>
+    <string name="library">书库</string>
+    <string name="summaryOn">显示 '打开书库' 项目</string>
+    <string name="summaryOff">不显示 '打开书库' 项目</string>
+
+    <string name="networkLibrary">网络书库</string>
+    <string name="summaryOn">显示 '打开网络书库' 项目</string>
+    <string name="summaryOff">不显示 '打开网络书库' 项目</string>
+
+    <string name="previousBook">上一本书</string>
+    <string name="summaryOn">显示“返回到上一本书”</string>
+    <string name="summaryOff">不显示“返回到上一本书”</string>
+
+    <string name="positions">最近浏览的3处位置</string>
+    <string name="summaryOn">显示最近浏览的3处位置</string>
+    <string name="summaryOff">不显示最近浏览的3处位置</string>
+
+    <string name="backKeyAction">回退键动作设定</string>
+    <string name="exit">关闭 FBReader</string>
+    <string name="goBack">后退到前一个界面</string>
+    <string name="cancelMenu">显示取消菜单</string>
+
+    <string name="backKeyLongPressAction">长按回退键动作设定</string>
+    <string name="exit">关闭FBReader</string>
+    <string name="goBack">后退到前一个界面</string>
+    <string name="cancelMenu">显示取消菜单</string>
+    <string name="none">不做任何事</string>
+
+
+    <string name="tips">小提示</string>
+    <string name="summary">每日提示设置</string>
+    <string name="showTips">显示提示</string>
+    <string name="summaryOn">显示每日提示</string>
+    <string name="summaryOff">不显示</string>
+
+
+    <string name="about">关于FBReader</string>
+    <string name="summary">版本信息, 联系人</string>
+    <string name="version">版本</string>
+    <string name="site">访问我们的网站</string>
+    <string name="url">https://fbreader.org/</string>
+
+    <string name="email">给我们发送邮件</string>
+    <string name="url">mailto:contact@fbreader.org</string>
+
+    <string name="googleplus">加入 FBReader Google+ 社区</string>
+    <string name="url">https://plus.google.com/communities/115894899404862312312</string>
+
+    <string name="twitter">关注我们的twitter</string>
+    <string name="url">https://twitter.com/fbreader</string>
+
+    <string name="facebook">关注我们的Facebook</string>
+    <string name="url">https://facebook.com/fbreader</string>
+
+    <string name="thirdParty">第三方库</string>
+
+    <string name="eink">电子墨水屏</string>
+    <string name="summary">电子墨水屏的具体选项</string>
+    <string name="enableFastRefresh">快速刷新模式</string>
+    <string name="summaryOn">使用快速 (但不很干净) 屏幕更新</string>
+    <string name="summaryOff">使用完全 (干净, 但慢) 屏幕更新</string>
+
+    <string name="interval">完全刷新中间快速更新的次数</string>
+
+
+    <string name="dialog" />
+    <string name="button" />
+    <string name="noThanks">不, 谢谢</string>
+    <string name="install">安装</string>
+    <string name="update">更新</string>
+    <string name="skip">跳过</string>
+    <string name="buy">购买</string>
+    <string name="buyAndDownload">购买并下载</string>
+    <string name="download">下载</string>
+    <string name="continue">继续</string>
+    <string name="editUrl">编辑 URL</string>
+    <string name="tryAgain">再次尝试</string>
+    <string name="openBook">阅读</string>
+    <string name="edit">编辑</string>
+    <string name="reloadInfo">重新加载</string>
+    <string name="shareBook">共享</string>
+    <string name="topup">重新输入账号</string>
+    <string name="pay">支付</string>
+    <string name="refresh">刷新</string>
+    <string name="authorise">授权</string>
+    <string name="resetPosition">重置位置</string>
+    <string name="sendReport">发送报告</string>
+    <string name="addToFavorites">收藏到我的超爱</string>
+    <string name="removeFromFavorites">从收藏列表中移除</string>
+    <string name="markAsRead">标记为已读</string>
+    <string name="markAsUnread">标记为未读</string>
+    <string name="plugin">插件</string>
+    <string name="premium">付费版</string>
+
+    <string name="gotoPage">前往页面</string>
+    <string name="plugin" />
+    <string name="installTitle">安装插件</string>
+    <string name="updateTitle">更新插件</string>
+    <string name="dontAskAgain">别再问了</string>
+
+    <string name="backgroundAuthentication" />
+    <string name="message">需要认证</string>
+
+    <string name="missingDictionary">缺失 %s</string>
+    <string name="install">安装 %s</string>
+    <string name="configure">配置翻译</string>
+    <string name="skip">忽略</string>
+
+    <string name="installDictionary" />
+    <string name="title">安装字典</string>
+    <string name="message">你希望安装 %s 么?</string>
+
+    <string name="deleteBookBox" />
+    <string name="message">确认删除该文件?</string>
+
+    <string name="deleteMultipleBookBox" />
+    <string name="title">删除书籍</string>
+    <string name="message">%s 文件将被永久删除. 确定?</string>
+
+    <string name="redownloadFileBox" />
+    <string name="message">该文件已存在，确认重新下载?</string>
+
+    <string name="litresUserRegistration" />
+    <string name="title">注册用户</string>
+    <string name="login">用户名</string>
+    <string name="password">密码</string>
+    <string name="confirmPassword">密码确认</string>
+    <string name="email">E_mail</string>
+
+    <string name="litresAutoSignIn" />
+    <string name="title">正在登录</string>
+    <string name="email">Email</string>
+    <string name="actions" />
+    <string name="title">邮件无法登录&#10;%s</string>
+    <string name="recover">恢复账户信息</string>
+    <string name="signIn">手动登录</string>
+    <string name="anotherEmail">选择其他邮箱</string>
+
+    <string name="signedIn">您已使用邮箱 %s 登录.</string>
+    <string name="registrationSuccessful">我们为您创建了一个 LitRes 账户. 详情已发送到 %s.</string>
+    <string name="passwordSent">您的账户信息已发送到 %s. 请检查邮箱.</string>
+
+    <string name="waitMessage" />
+    <string name="translating">翻译中…</string>
+    <string name="tryConnect">正在连接. 请稍等…</string>
+    <string name="downloadingBook">已下载 %s</string>
+    <string name="search">搜索中，请稍等…</string>
+    <string name="loadInfo">信息加载中，请稍等…</string>
+    <string name="loadingBook">图书加载中，请稍等…</string>
+    <string name="loadingBookList">书库加载中，请稍等…</string>
+    <string name="creatingBooksDatabase">正在创建图书数据库，请稍等…</string>
+    <string name="updatingBooksDatabase">正在更新图书数据库，请稍等…</string>
+    <string name="loadingNetworkLibrary">正在打开书库，请稍等…</string>
+    <string name="authentication">验证中.请稍等…</string>
+    <string name="signOut">退出. 正在处理,请稍等…</string>
+    <string name="purchaseBook">书籍购买中. 请稍等…</string>
+    <string name="loadingCatalogInfo">加载书库信息中，请稍待…</string>
+    <string name="loadingNetworkBookInfo">书籍信息加载中，请稍等…</string>
+    <string name="updatingCatalogsList">更新书库列表中，请稍待…</string>
+    <string name="updatingAccountInformation">正在更新账户信息，请稍等…</string>
+    <string name="initDRMEngine">正在初始化 DRM 引擎. 请稍等…</string>
+    <string name="acquireLicence">正在获取许可. 请稍等…</string>
+    <string name="registerUser">正在注册新账号，请稍等…</string>
+    <string name="autoSignIn">正在登录. 请稍等…</string>
+    <string name="recoverPassword">正在恢复密码. 请稍等…</string>
+
+    <string name="networkError" />
+    <string name="internalError">内部服务器出错</string>
+    <string name="purchaseNotEnoughMoney">金额不足</string>
+    <string name="purchaseMissingBook">图书缺失</string>
+    <string name="purchaseAlreadyPurchased">已购买书籍</string>
+    <string name="bookNotPurchased">未购买书籍</string>
+    <string name="downloadLimitExceeded">超过下载限制</string>
+    <string name="noUserForEmail">你的电子邮箱可以注册&#10;</string>
+    <string name="unsupportedOperation">非法操作</string>
+    <string name="notAnOPDS">没有OPDS书库</string>
+    <string name="noRequiredInformation">书库目录中必须的信息没有定义</string>
+    <string name="cacheDirectoryError">无法创建缓存目录</string>
+    <string name="usernameAlreadyInUse">用户名已经存在</string>
+    <string name="usernameNotSpecified">请输入用户名</string>
+    <string name="passwordNotSpecified">请输入密码</string>
+    <string name="passwordsDoNotMatch">密码和密码确认必须一致.</string>
+    <string name="emailNotSpecified">请输入你的电子邮箱</string>
+    <string name="emailAlreadyInUse">该email已经注册过</string>
+    <string name="invalidEMail">无效的电子邮箱</string>
+    <string name="tooManyRegistrations">来自你的IP的注册数过多，&#10;请稍候再尝试注册</string>
+
+    <string name="AuthenticationDialog" />
+    <string name="title">鉴定</string>
+    <string name="unencryptedWarning">你的密码将明文传送</string>
+    <string name="login">登录</string>
+    <string name="password">密码</string>
+    <string name="loginIsEmpty">用户名不允许为空</string>
+    <string name="register">注册</string>
+
+    <string name="CustomCatalogDialog" />
+    <string name="title">FBReader: 添加自设书库</string>
+    <string name="catalogTitle">书库名称</string>
+    <string name="catalogUrl">书库网址</string>
+    <string name="catalogSummary">简介</string>
+    <string name="catalogTitleExample">例如: 古滕堡项目书库目录</string>
+    <string name="catalogUrlExample">例如: https://m.gutenberg.org/</string>
+    <string name="catalogSummaryExample">例如: 公版图书</string>
+    <string name="titleIsEmpty">名称不能为空</string>
+    <string name="urlIsEmpty">书库网址不能为空</string>
+    <string name="invalidUrl">无效的URL地址</string>
+    <string name="titleAlreadyExists">该名称已经在用</string>
+    <string name="siteAlreadyExists">该书库已经在用</string>
+
+    <string name="languageFilterDialog" />
+    <string name="title">语言过滤</string>
+
+    <string name="tips" />
+    <string name="title">今天提示</string>
+    <string name="initializationText">你希望阅读FBReader每日提示吗? 新的提示将从FBReader网站下载. 每周使用流量大约 1_2 K字节.&#10;&#10;启用小提示吗?</string>
+    <string name="dontShowAgain">不要再显示</string>
+    <string name="more">下个提示</string>
+
+    <string name="screenHint" />
+    <string name="message1" toBeTranslated="true">FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog.</string>
+    <string name="message2" toBeTranslated="true">Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings.</string>
+
+    <string name="folderList" />
+    <string name="addFolder">添加文件夹</string>
+    <string name="removeDialog">删除文件夹</string>
+    <string name="message">从列表中删除 “%s”?</string>
+
+    <string name="duplicate">“%s” 已在列表中</string>
+
+    <string name="editList" />
+    <string name="edit">编辑</string>
+    <string name="remove">删除</string>
+
+    <string name="editTags">标签</string>
+    <string name="addTag">添加标签</string>
+    <string name="editTag">编辑标签</string>
+    <string name="removeTag">删除标签</string>
+    <string name="message">从列表中删除标签 “%s”?</string>
+
+
+    <string name="editAuthors">作者</string>
+    <string name="addAuthor">添加作者</string>
+    <string name="editAuthor">编辑作者</string>
+    <string name="removeAuthor">删除作者</string>
+    <string name="message">从列表中删除作者 “%s”?</string>
+
+
+    <string name="fileChooser" />
+    <string name="root">根目录</string>
+    <string name="newFolder">新文件夹</string>
+    <string name="folderNameHint">文件夹名称</string>
+    <string name="menu" />
+    <string name="origin">原始</string>
+    <string name="reload">重新加载</string>
+
+    <string name="sortBy">排序按</string>
+    <string name="name">名称</string>
+    <string name="size">大小</string>
+    <string name="date">日期</string>
+
+    <string name="permissionDenied">许可被拒绝</string>
+
+    <string name="missingPlugin">缺失插件</string>
+    <string name="message">%s 文件的插件未安装. 现在安装?</string>
+
+    <string name="licensing">未经许可</string>
+    <string name="message">%s 未经许可. 去 Google Play 购买?</string>
+
+    <string name="retryLicensing">许可验证</string>
+    <string name="message">无法验证 %s 许可. 再次尝试?</string>
+
+
+    <string name="errorMessage" />
+    <string name="nativeCodeFailure">原生代码错误 %s, 阅读 '%s' 时</string>
+    <string name="errorReadingFile">读取 '%s' 时发生错误</string>
+    <string name="errorReadingZip">解压 '%s' 时发生错误</string>
+    <string name="pluginNotFound">没有这个插件 '%s'</string>
+    <string name="unknownPluginType">未知插件类型: %s</string>
+    <string name="fileNotFound">文件未找到: %s</string>
+    <string name="unsupportedEncryptionMethod">FBReader不支持文件 %s 加密方法. 某些页面不可读</string>
+    <string name="opfFileNotFound">在 %s 文件夹未找到 OPF  </string>
+    <string name="unsupportedFileFormat">文件格式 '%s' 不支持</string>
+    <string name="errorParsingRtf">Rtf解析错误: %s</string>
+    <string name="cannotRunAndroidMarket">无法访问Android官方应用市场. 请手工安装 %s .</string>
+    <string name="textNotFound">对不起，本书中找不到对应内容</string>
+    <string name="bookNotFound">对不起，书库中找不到需要的书籍</string>
+    <string name="bookmarkNotFound">对不起，找不到对应的书签</string>
+    <string name="cannotOpenBook">对不起，无法开启本书</string>
+    <string name="dictionaryIsNotInstalled">抱歉，你没有安装字典.</string>
+    <string name="permissionDenied">对不起，没有权限</string>
+    <string name="noFavorites">对不起，你的收藏列表为空</string>
+    <string name="noSeries">对不起，这个系列中没有书</string>
+    <string name="emptyCatalog">空书库目录</string>
+    <string name="emptyBasket">很抱歉，你的购物篮是空的</string>
+    <string name="emptyNetworkSearchResults">没有找到对应的书籍</string>
+    <string name="videoServiceNotWorking">视频服务不可用</string>
+    <string name="videoPlayerNotFound">本设备未安装视频播放器</string>
+    <string name="bookIsMissingTitle">缺失书籍</string>
+    <string name="bookIsMissing">设备上未找到书籍 '%s'</string>
+    <string name="downloadFailed">下载失败</string>
+
+    <string name="external" />
+    <string name="browser">浏览器</string>
+    <string name="defaultBrowser">默认浏览器</string>
+
+    <string name="crash" />
+    <string name="fixBooksDirectory" />
+    <string name="title">FBReader 问题</string>
+    <string name="text">无法写入FBReader缓存. 请检查内存卡已正确插入, 或选择其他目录.</string>
+
+    <string name="missingNativeLibrary" />
+    <string name="title">FBReader 问题</string>
+    <string name="text">FBReader无法加载本地库. 可能未正确安装. 如果问题还存在, 请重新安装FBReader.</string>
+
+
+    <string name="error" />
+    <string name="bookReading" />
+    <string name="title">FBReader 问题</string>
+
+
+    <string name="links" />
+    <string name="faqPage">https://fbreader.org/faq_page</string>
+
+    <string name="plugins">安装插件</string>
+    <string name="noMorePlugins">抱歉, 目前没有新插件</string>
+    <string name="litres">LitRes</string>
+    <string name="summary">俄语书籍商店</string>
+
+    <string name="tts_plus">TTS+</string>
+    <string name="summary">朗读</string>
+
+    <string name="calibre_server_integration">Calibre 连接</string>
+    <string name="summary">连接到局域网的 Calibre 服务器</string>
+
+    <string name="local_opds_scanner">本地 OPDS 扫描仪</string>
+    <string name="summary">在本地网络中寻找书籍</string>
+
+    <string name="bookshelf">书架</string>
+    <string name="summary">书库缩略视图</string>
+
+    <string name="opds_server">OPDS 服务器</string>
+    <string name="summary">允许设备用作服务器</string>
+
+    <string name="widgets">Widgets</string>
+    <string name="summary">将书籍添加到主屏幕</string>
+
+    <string name="pdf">PDF</string>
+    <string name="summary">用 PDF 格式阅读书籍</string>
+
+    <string name="djvu">DjVu</string>
+    <string name="summary">用 DjVu 格式阅读书籍</string>
+
+    <string name="cbr">漫画书</string>
+    <string name="summary">阅读漫画书(CBR, CBZ)</string>
+
+
+    <string name="drm" />
+    <string name="encryptedSection">加密部分</string>
+
+    <string name="yota" />
+    <string name="frontScreenMessage" toBeTranslated="true">Turn the device over to read your book. To return text to this screen, press the button below.</string>
+    <string name="frontScreenButton">切换到该屏幕</string>
+
+    <string name="hint" />
+    <string name="positiveLength">如: 20px, 10pt, 0.8em, 1ex, 120%</string>
+    <string name="length">如: _2px, 10pt, _0.8em, 1.1ex, _40%</string>
+    <string name="percent">如: 125%</string>
+
+    <string name="duration" />
+    <string name="duration1">1 秒</string>
+    <string name="duration3">3 秒</string>
+    <string name="duration5">5 秒</string>
+    <string name="duration10">10 秒</string>
+    <string name="duration20">20 秒</string>
+    <string name="duration40">40 秒</string>
+    <string name="duration60">1 分</string>
+    <string name="duration300">5 分</string>
+
+    <string name="textSearchPopup" />
+    <string name="findPrevious">前一项</string>
+    <string name="findNext">下一项</string>
+    <string name="close">关闭</string>
+
+    <string name="selectionPopup" />
+    <string name="copyToClipboard">复制到剪贴板</string>
+    <string name="share">分享文本</string>
+    <string name="openInDictionary">打开字典</string>
+    <string name="translate">翻译</string>
+    <string name="bookmark">加入书签</string>
+    <string name="close">关闭</string>
+
+    <string name="dictanErrors" />
+    <string name="unknown">未知错误</string>
+    <string name="noArticle">未找到 “%s” 的文章</string>
+    <string name="cannotOpenDictionary">无法打开词典</string>
+    <string name="noDictionarySelected">词典未选择; 请调整 Dictan 设定</string>
+
+    <string name="premium">FBReader 付费版</string>
+    <string name="shortTitle">FBReader 付费版</string>
+    <string name="conflict">FBReader 和 FBReader 付费版都已安装. 您想运行哪个?</string>
+
+    <string name="widget" />
+    <string name="simple" />
+    <string name="selectIcon">选择Widget图标</string>
+    <string name="selectAction">选择动作</string>
+    <string name="book">阅读书籍</string>
+    <string name="library">打开库</string>
+-->
+
+</resources>
