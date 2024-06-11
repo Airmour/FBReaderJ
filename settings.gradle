@@ -3,4 +3,4 @@ include ':fileChooser'
 include ':dragSortListview'
 include ':superToasts'
 include ':app'
-rootProject.name = "FBReaderJ-AndroidStudio"
+rootProject.name = "FBReaderJ"
